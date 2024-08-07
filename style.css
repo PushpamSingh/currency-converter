@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+    background-blend-mode: screen;
+    
+}
+.head-container{
+    border-radius: 2rem;
+    padding: 2.3rem;
+    background-color: rgb(255, 255, 255);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.79rem;
+    margin: 2rem auto; 
+}
+.amount input{
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 0.75rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid lightgrey;
+}
+.amount .h3-text{
+    font-size: 15px;
+    /* font-weight: 900;
+     */ 
+}
+
+.select-country{
+    display: flex;
+    justify-content: space-between;
+}
+.select-country .flag-img{
+    height: 30px;
+    width: 30px;
+    border-radius: 0.5rem;
+}
+.Exchange-icon{
+    height: 20px;
+    width: 20px;
+    margin: auto 0;
+}
+.select-container{
+    /* border: 1px solid black; */
+    padding: 0.5rem;
+}
+
+.choose{
+    border: 1px solid lightgrey;
+    border-radius: 0.5rem;
+    padding-left: 2px;
+    display: flex;
+    gap: 5px;
+}
+.choose select{
+    border: none;
+    outline: none;
+    height: 25px;
+    margin-top: 1.1px;
+    margin-left: 1.1px;
+    border-radius: 0.5rem;
+}
+.from{
+    font-size: 12px;
+}
+.to{
+    font-size: 12px;
+}
+
+.Exchange-btn{
+    border-radius: 0.5rem;
+    padding: 6px;
+    border: transparent;
+    background-color: rgb(136, 72, 128);
+    color: white;
+    box-shadow: 2px 2px 12px rgb(136, 72, 128);
+    cursor: pointer;
+}
